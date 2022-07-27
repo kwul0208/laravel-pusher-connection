@@ -14,5 +14,11 @@
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
+    },
+    "dependencies": {
+        "install": "^0.13.0",
+        "laravel-echo": "^1.13.0",
+        "npm": "^8.15.0",
+        "pusher-js": "^7.3.0"
     }
 }

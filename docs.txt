@@ -1,0 +1,9 @@
+1. kenalan sama broadcast dulu
+2. configurasi pusher (eps event)
+3. configurasi bootsrap (eps client) 
+[
+-npm isntall, 
+-npm laravel-echo, 
+-npm pusher.js, 
+-npm run wacth(untuk compile file bootstrap.js agar ke public folder)
+]
