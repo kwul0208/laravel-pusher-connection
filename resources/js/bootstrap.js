@@ -28,6 +28,9 @@ window.Echo = new Echo({
 });
 
 window.Echo.channel("message").listen("MessageCreated", (event) => {
-    console.log('berhasil listern ke pusher');
+    console.log('berhasil listen ke pusher x');
     console.log(event);
+    console.log(event.message);
+
+    document.getElementById("test").innerHTML = event.message;
 });

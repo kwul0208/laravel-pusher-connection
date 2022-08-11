@@ -2097,8 +2097,10 @@ window.Echo = new laravel_echo__WEBPACK_IMPORTED_MODULE_0__["default"]({
   forceTLS: true
 });
 window.Echo.channel("message").listen("MessageCreated", function (event) {
-  console.log('berhasil listern ke pusher');
+  console.log('berhasil listen ke pusher x');
   console.log(event);
+  console.log(event.message);
+  document.getElementById("test").innerHTML = event.message;
 });
 
 /***/ }),

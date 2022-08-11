@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    MessageCreated::dispatch('test message');
+    // MessageCreated::dispatch('test message');
     // event(event: new MessageCreated);
 
     return view('welcome');
